@@ -2,11 +2,11 @@ This is day3 where we will learn how to create a basic s3 bucket in aws using te
 
 The code snippet is attached in the day03 file 
 
-here we will learn about teeraform apply where the resoucres will create on the autorized appproval basics 
+here we will learn about terraform apply where the resoucres will create on the autorized appproval basics 
 
 to bypass the auto approval we can use
 
-teeraform apply --auto-approve
+terraform apply --auto-approve
 
 #Quick read for terrform apply
 
