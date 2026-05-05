@@ -17,6 +17,7 @@ Below is the basic usage of the terraform to creata a vpc
 
 resource "aws_vpc" "example1" {
   cidr_block = "10.0.0.0/16"
+  
 }
 
 Her example is not the name of the vpc it is the local name given to it 
@@ -28,6 +29,9 @@ we will do as following
 resource "aws_ec2_host" "name" {
     vpc_id = aws_vpc.example.id 
 }
+
+vpc name we will provide in tag section as  Name = "vpc example" 
+
 
 Use can can your aws acoount using
 aws configure
