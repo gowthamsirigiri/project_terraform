@@ -1,4 +1,4 @@
-Hi Team , is the day 2 of learing terraform 
+The day 2 of learing terraform 
 
 So far 
 Teeraform is the written in hcl (hashicorp language) and our cloud providers like aws services works with api 
