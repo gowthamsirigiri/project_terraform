@@ -6,7 +6,7 @@ Today topics are state file and remote backend how does they work
 
 When we run the terraform apply cmd there it will compare the deszired state[the changes we write in the main.tf file] with the actual state.
 
-Which mean if we want to create two resoucre say a s3 bucket and ec2 it will check with the existing infra created by terraform.
+Which mean if we want to create two resources say a s3 bucket and ec2 it will check with the existing infra created by terraform.
 
 <img width="2396" height="1216" alt="image" src="https://github.com/user-attachments/assets/9e4202b0-04d3-4f8c-ac9c-4510ae43647b" />
 
