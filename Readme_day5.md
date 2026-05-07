@@ -2,6 +2,9 @@ Day 5
 
 Todays concept is variables in terraform
 
+<img width="2506" height="1142" alt="image" src="https://github.com/user-attachments/assets/8aa71b98-771d-4421-99a2-47cbcf4df9c3" />
+
+
 First type -> Input varibale -> this varibale are difened by using below syntax
 
 variable "environment" { 
@@ -26,6 +29,9 @@ Third type -> output -> here we will wait for the value like we need the vpc id 
 output vpc_id_local_name {
   value       = aws_vpc.example1.id      
 }
+
+<img width="1886" height="1106" alt="image" src="https://github.com/user-attachments/assets/b80e5b70-0253-4f71-9935-32eef4941d56" />
+
 
 We can also create a file terraform.vars / terraform.vars.json 
 
