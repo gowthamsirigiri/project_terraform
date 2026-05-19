@@ -30,6 +30,19 @@ resource "aws_s3_bucket" "buckets2" {
 
 }
 
+#another for example
+
+variable "user_names" {
+  type    = list(string)
+  default = ["alice", "bob", "charlie"]
+}
+
+# Converts all names in the list to uppercase
+output "uppercase_names" {
+  value = [for name in var.user_names : upper(name)]
+}
+// Output: ["ALICE", "BOB", "CHARLIE"]
+
 
 
 
